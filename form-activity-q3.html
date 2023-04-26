@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html>
-    <body>
-    <h1>Review Comment Box</h1>
-        <form>
+<head>
+    <title>Question 3</title>
+</head>
+
+<body>
+<h1>Review Comment Box</h1>
+    <form>
+        <div>
             <label for="rating">Rating:</label>
             <input type="range" id="rating" name="rating" min="1" max="5" style="accent-color: rgba(0, 110, 255, 0.849);">
-            <div><span>Comment:</span></div>
-            <textarea name="comment" style="width:400px; height:70px"></textarea><br>
+        </div>
+        <div><span>Comment:</span></div>
+        <div>
+            <textarea name="comment" style="width:400px; height:70px"></textarea>
+        </div>
+        <div>    
             <input type="submit" value="Submit Review">
-        </form>
-    </body>
+        </div>
+    </form>
+</body>
 </html>
